@@ -4,10 +4,10 @@ public static void main(String args[]){
 	Scanner sc = new Scanner(System.in);
 	System.out.println("Enter the number");
 	int number =sc.nextInt();
-	int i,sum=1;
+	int i,fact=1;
 	for (i=1;i<=number;i++){
-		sum = sum*i;
+		fact = fact*i;
 	}
-	System.out.println(sum);
+	System.out.println(fact);
 	}
 }
